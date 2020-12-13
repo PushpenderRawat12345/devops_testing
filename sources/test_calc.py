@@ -10,7 +10,7 @@ class TestCalc(unittest.TestCase):
 
     def test_add_floats(self):
         
-        result = calc.add2('10.5', 2)
+        result = calc.add2('10.5')
         self.assertEqual(result, 12.5)
 
     def test_add_strings(self):
